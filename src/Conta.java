@@ -94,15 +94,4 @@ public class Conta {
         }
     }
 
-    /**
-     * Verifica se a conta está utilizando o cheque especial e exibe o valor
-     * utilizado, se houver.
-     */
-    public void verificarUsoChequeEspecial() {
-        if (valorUsadoChequeEspecial > 0) {
-            System.out.println("A conta está usando R$ " + valorUsadoChequeEspecial + " do cheque especial.");
-        } else {
-            System.out.println("A conta não está usando o cheque especial.");
-        }
-    }
 }
